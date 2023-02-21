@@ -1,9 +1,15 @@
 import inquirer from 'inquirer';
 import fs from "fs/promises";
 
-const { description, installation, usage, license, contributing, tests } = await inquirer
+const { title, description, installation, usage, license, contributing, tests } = await inquirer
     .prompt([
 
+// Input for project title
+        {
+            name: 'title',
+            message: "What is the title of your project?",
+            type: 'input',
+        },
 // Input for description of project
         {
             name: 'description',
@@ -36,7 +42,7 @@ const { description, installation, usage, license, contributing, tests } = await
             name: 'license',
             type: 'list',
             message: 'Which license do you need?',
-            choices: ['MIT','',''],
+            choices: ['MIT','Apache 2.0','Modzilla'],
             filter(val){
                 return(val).toLowerCase();
             },
@@ -67,24 +73,30 @@ const { description, installation, usage, license, contributing, tests } = await
 
 let readmeText = 
 
-`# Project Description
-${description}
+`
+# ${title}
 
-# Table of Contents
-
-# Installation
-${installation}
-
-# Usage
-${usage}
-
-# License
 ${generateLicense(license)}
 
-# Contributing
+## Project Description
+${description}
+
+## Table of Contents
+
+
+## Installation
+${installation}
+
+## Usage
+${usage}
+
+## License
+${license}
+
+## Contributing
 ${contributing}
 
-# Tests
+## Tests
 ${tests}
 
 `
@@ -95,8 +107,14 @@ ${tests}
 
 function generateLicense(license){
    if (license === "MIT")
+    // } else if {
+    // (license === "Apache 2.0")
+    // } else {(license === "Modzilla")
+    // }
+
+
    
-    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    return `[![License: ${license}](https://img.shields.io/badge/License-${license}.svg)](https://opensource.org/licenses/${license})`
 }
 
 
