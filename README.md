@@ -1,27 +1,25 @@
 
-# q
+# t
 
 undefined
 
 ## Project Description
-q
+t
 
 ## Table of Contents
 
 
 ## Installation
-q
+t
 
 ## Usage
-q
+t
 
 ## License
 mit
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-q
+t
 
 ## Tests
-q
-
+t
