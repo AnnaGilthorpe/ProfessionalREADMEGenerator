@@ -107,6 +107,7 @@ ${tests}
 
 function generateLicense(license){
    if (license === "MIT")
+   
     // } else if {
     // (license === "Apache 2.0")
     // } else {(license === "Modzilla")
