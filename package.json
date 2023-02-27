@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "undefined",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/AnnaGilthorpe/ProfessionalREADMEGenerator/issues"
   },
-  "homepage": "https://github.com/AnnaGilthorpe/ProfessionalREADMEGenerator#readme"
+  "homepage": "https://github.com/AnnaGilthorpe/ProfessionalREADMEGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
 }

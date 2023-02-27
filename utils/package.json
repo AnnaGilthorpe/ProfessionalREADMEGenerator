@@ -1,14 +1,23 @@
 {
-  "name": "utils",
+  "name": "professionalreadmegenerator",
   "version": "1.0.0",
-  "description": "",
-  "main": "generateMarkdown.js",
+  "description": "undefined",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaGilthorpe/ProfessionalREADMEGenerator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaGilthorpe/ProfessionalREADMEGenerator/issues"
+  },
+  "homepage": "https://github.com/AnnaGilthorpe/ProfessionalREADMEGenerator#readme",
   "dependencies": {
     "inquirer": "^9.1.4"
   }
