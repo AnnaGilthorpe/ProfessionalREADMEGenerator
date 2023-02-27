@@ -1,10 +1,10 @@
 
 
-# p
+# y
 
 
 ## Project Description
-p
+y
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,17 +14,17 @@ p
 * [Tests](#tests)
 
 ## Installation
-p
+y
 
 ## Usage
-p
+y
 
 ## License
 mit
 undefined
 
 ## Contributing
-p
+y
 
 ## Tests
-p
+y
