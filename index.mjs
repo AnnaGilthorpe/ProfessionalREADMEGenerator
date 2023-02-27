@@ -55,30 +55,26 @@ const { title, description, installation, usage, license, contributing, tests } 
     default() {
       return 'Doe';
     },
-    message: "Write include details of those who have contributed to yourr project here",
+    message: "Please include details of your project tests here",
   },
 ]);
 
-function generateLicense(license){
-  if (license === "MIT") {
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}.svg)](https://opensource.org/licenses/${license})`
-  } else if (license === "Apache-2.0") {
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})`
-  } else if (license === "Mozilla") {
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-orange.svg)](https://opensource.org/licenses/${license})`
-  }
-}
+
 
 let readmeText = `
+
 # ${title}
 
-${generateLicense(license)}
 
 ## Project Description
 ${description}
 
 ## Table of Contents
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
 ## Installation
 ${installation}
@@ -88,6 +84,7 @@ ${usage}
 
 ## License
 ${license}
+${generateLicense()}
 
 ## Contributing
 ${contributing}
@@ -95,6 +92,16 @@ ${contributing}
 ## Tests
 ${tests}
 `
+
+function generateLicense(){
+  if (license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT.svg)](https://opensource.org/licenses/MIT)";
+  } else if (license === "Apache-2.0") {
+    return "[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  } else if (license === "Mozilla 2.0") {
+    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+  }
+}
 
 await fs.writeFile("README.md", readmeText)
 console.log('success!');
