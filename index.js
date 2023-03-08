@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import fs from "fs/promises";
 
-const { title, description, installation, usage, license, contributing, tests } = await inquirer.prompt([
+const { title, description, installation, usage, license, contributing, tests, questions } = await inquirer.prompt([
   // Input for project title
   {
     name: 'title',
@@ -53,9 +53,18 @@ const { title, description, installation, usage, license, contributing, tests } 
     name: 'tests',
     type: 'input',
     default() {
-      return 'Doe';
     },
     message: "Please include details of your project tests here",
+  },
+
+  {
+    name: 'questions',
+    type: 'input',
+    default() {
+      return 'Doe';
+    },
+    message: "If users have questions about your project would you like to include the option for them to contact you? If so, add your contact details here.",
+    
   },
 ]);
 
@@ -91,6 +100,9 @@ ${contributing}
 
 ## Tests
 ${tests}
+
+## Questions
+${questions}
 `
 
 function generateLicense(){
