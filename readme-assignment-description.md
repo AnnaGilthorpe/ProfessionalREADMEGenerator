@@ -2,9 +2,9 @@
 
 
 ## Project Description
-The aim of this challenge was to create a command-line application that accepts user input.
+The aim of this challenge was to create a command-line application that dynamically generates a professional README.md file from a user's input.
 
-It ensures that:-
+The app ensures that:-
 
 <li>When a user enters the project title, it's displayed as the title of the README</li>
 
@@ -18,9 +18,9 @@ It ensures that:-
 
 <li>When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.</li>
 
-The app requests the information from the user via a series of prompts.
+It requests the information from the user via a series of prompts.
 
 ## Technologies used
 <li>Inquirer</li>
-<li>Node</li>
+<li>Node.js</li>
 <li>Javascript</li>
