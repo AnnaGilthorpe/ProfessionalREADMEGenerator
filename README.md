@@ -1,6 +1,6 @@
 
 
-# README Generator
+# Professional README Generator
 
 
 ## Project Description
@@ -14,20 +14,20 @@ The aim of this challenge was to create a command-line application that dynamica
 * [Tests](#tests)
 
 ## Installation
-N/A
+Please install from MAC Terminal or Gitbash.
 
 ## Usage
-N/a
+No limits.
 
 ## License
 mit
 ![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
 
 ## Contributing
-N/A
+No contributors.
 
 ## Tests
-No testing needed
+No testing.
 
 ## Questions
-annagilthorpe@gmail.com
+Please send your questions to annagilthorpe@gmail.com. You can find me on GitHub "AnnaGilthorpe". Here is the link to my profile - https://github.com/AnnaGilthorpe
