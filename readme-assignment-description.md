@@ -20,6 +20,9 @@ The app ensures that:-
 
 It requests the information from the user via a series of prompts.
 
+Please watch this video to see a full demo of the application.
+https://watch.screencastify.com/v/DKVtWsrv6rmFHTgHCAaO
+
 ## Technologies used
 <li>Inquirer</li>
 <li>Node.js</li>
