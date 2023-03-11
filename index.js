@@ -63,7 +63,7 @@ const { title, description, installation, usage, license, contributing, tests, q
     default() {
       return 'Doe';
     },
-    message: "If users have questions about your project would you like to include the option for them to contact you? If so, add your contact details here.",
+    message: "If users have questions about your project would you like to include the option for them to contact you? If so, add your contact details here. Please add your GitHub user name, the link to your GitHub profile and your email address.",
     
   },
 ]);

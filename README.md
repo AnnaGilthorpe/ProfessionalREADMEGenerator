@@ -1,10 +1,10 @@
 
 
-# e
+# README Generator
 
 
 ## Project Description
-e
+The aim of this challenge was to create a command-line application that dynamically generates a professional README.md file from a user's input.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,20 +14,20 @@ e
 * [Tests](#tests)
 
 ## Installation
-e
+N/A
 
 ## Usage
-e
+N/a
 
 ## License
 mit
 ![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
 
 ## Contributing
-e
+N/A
 
 ## Tests
-e
+No testing needed
 
 ## Questions
-e
+annagilthorpe@gmail.com
